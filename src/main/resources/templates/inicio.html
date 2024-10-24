@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+	<head>
+		<title>Bienvenido</title>
+	</head>
+<body>
+	
+	
+	<p th:text ="${userLogin.name} + ' - ' + ${userLogin.person.fistname}"/>
+	<p th:text ="${userLogin.lastlogin}"/>
+</body>
+</html>
